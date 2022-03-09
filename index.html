@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Joe's Daily Journal</title>
+<link rel="stylesheet" href="styles/main.css">
+
+<body>
+    <header id="journal-header">
+        <img
+        class="logo"
+        src="../images/journal-logo.jpg"
+        alt="a pic of bacon"
+        />
+        <h2 id="journal-greeting">
+            Hello Joe!<br />Welcome to your progress journal!<br />How was your day?:
+        </h2>
+    </header>
+    <main>
+        <h2>Daily Progress Journal</h2>
+        <form action="">
+            <fieldset>
+                <label for="journalDate">Date of Journal Entry</label>
+                <input type="date" name="journalDate" id="journalDate" />
+            </fieldset>
+            <fieldset>
+                <label for="journaConcepts">Concepts Covered</label>
+                <input type="text" name="journalConcepts" id="journalConcepts" />
+            </fieldset>
+            <fieldset>
+                <label for="journaEntry">Journal Entry</label>
+                <textarea rows="5" cols="50" name="journalEntry" id="journalEntry">Tell me how your day went!</textarea> />
+            </fieldset>
+            <fieldset>
+                <label for="journalMood">How Moody am I?</label>
+                <select name="journalMood" id="journalMood">
+                    <option value="estatic">Estatic</option>
+                    <option value="frustrated">Frustrated</option>
+                    <option value="brain hurty">Brain Hurty</option>
+                    <option value="for gonder">For Gondor!</option>
+                    <option value="why?">WHY??????</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="journalSubmit"></label>
+                <input type="submit" value="Submit Journal Entry" name="journalSubmit"  id="journalSubmit" />
+            </fieldset>
+        </form>
+        <section class="journal-previous-entries">
+            <article>
+                <h3 class="journal-entry-date">DATE</h3>
+                <h3 class="journal-entry-concepts">CONCEPTS</h3>
+                <article class="journal-entry-body">
+                    <p>JOURNAL ENTRY BODY                        
+                    </article>
+                    <button>EDIT</button><button>DELETE</button>
+            </article>
+        </section>
+    </main>
+    <footer>&copy; Joe's Github </footer>
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
