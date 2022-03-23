@@ -1,1 +1,1 @@
-This is my daily journal were I will attempt to log my progress as I proceed through the NSS Web Dev bootcamp. 
+This is my daily journal were I will attempt to log my progress as I proceed through the NSS 55 Web Dev bootcamp. 
